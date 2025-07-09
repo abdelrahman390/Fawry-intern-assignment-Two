@@ -142,14 +142,14 @@ class BookStore:
 class SystemTestClass:
     @staticmethod
     def run_tests():
-        print("Quantum book store: Starting comprehensive tests...")
+        print("Quantum book store: Tests are starting...")
 
-        # initialize some books as example
+        # initialize some books as an example
         harry_botter_book = paperBook("1", "harry botter", 100, 5, 2023, "George Orwell")
         The_Stranger = eBook("2", "The Stranger", 100, 2021, "Ernest Hemingway", "pdf")
         The_Metamorphosis = showcaseBook("3", "The Metamorphosis", 2015, "John Steinbeck")
 
-        # print all book details with built on function 
+        # print all book details with built-in function 
         harry_botter_book.book_details()
         The_Stranger.book_details()
         The_Metamorphosis.book_details()
